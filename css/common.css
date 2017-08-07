@@ -1,0 +1,135 @@
+#onlineHelp{
+    width:100%;
+    padding:15px;
+}
+#onlineHelp .top:after{
+    display: block;
+    content:"";
+    clear: both;
+}
+#onlineHelp .top .personMsg{
+    width:450px;
+    height:400px;
+    border:1px solid #ccc;
+    float:left;
+    margin-right:10px;
+    /*background:#ccc;*/
+}
+h4.title{
+    font-size:16px;
+    display: inline-block;
+    border-top:3px solid #ccc;
+    padding-top: 8px;
+    margin:0;
+    margin-top:-2px;
+    margin-left: 5px;
+}
+#onlineHelp .top .personMsg h5{
+    width:131px;
+    margin:0 auto;
+    margin-top:20px;
+}
+#onlineHelp .top .personMsg h5 img{
+    width:100%;
+    border-radius: 65px;
+}
+#onlineHelp .top .personMsg table{
+    width:90%;
+    margin:0 auto;
+    margin-top:20px;
+}
+#onlineHelp .top .personMsg table td{
+    padding:10px 15px;
+}
+#onlineHelp .top .right{
+    width:calc(100% - 460px);
+    height:400px;
+    float:left;
+    /*border:1px solid #ccc;*/
+}
+#onlineHelp .top .right:after{
+    display: block;
+    content:"";
+    clear: both;
+}
+#onlineHelp .top .right .jbxx{
+    border:1px solid #ccc;
+    width:60%;
+    height:calc(100% - 2px);
+    float:left;
+    margin-right:10px;
+}
+#onlineHelp .top .right .jbxx h5{
+    width: 96%;
+    margin: 17px auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+#onlineHelp .top .right .jbxx table{
+    width:96%;
+    margin:0 auto;
+}
+#onlineHelp .top .right .jbxx table td{
+    padding:10px;
+}
+#onlineHelp .top .right .xinyong{
+    border:1px solid #ccc;
+    width:calc(40% - 10px);
+    height:calc(100% - 2px);
+    float:left;
+}
+#onlineHelp .top .right .xinyong h5{
+    width: 96%;
+    margin: 17px auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+#onlineHelp .top .right .xinyong table td .progress{
+    margin-bottom:0;
+}
+
+
+#onlineHelp .bottom{
+    border:1px solid #ccc;
+    margin-top:10px;
+    height:calc(100% - 400px - 10px);
+}
+#onlineHelp .bottom ul{
+    width:96%;
+    margin:0 auto;
+    padding: 0;
+    margin-top:20px;
+    border-bottom:1px dashed #ccc;
+    position:relative;
+}
+#onlineHelp .bottom ul .glyphicon{
+    position:absolute;
+    top:auto;
+    right:-6px;
+    bottom:-7px;
+}
+#onlineHelp .bottom ul:after{
+    display: block;
+    content:"";
+    clear: both;
+}
+#onlineHelp .bottom ul li{
+    width:calc(20% - 1px);
+    float:left;
+    border-left:1px solid #ccc;
+    list-style: none;
+    padding-left:10px;
+}
+#onlineHelp .bottom ul li p{
+    margin: 0 0 17px;
+}
+#onlineHelp .bottom ul li p:nth-child(2){
+    background:#f60;
+    color:#fff;
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:20px;
+}
+#onlineHelp .bottom ul li:nth-child(2n) p:nth-child(2){
+    background:lightseagreen;
+}
